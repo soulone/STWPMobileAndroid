@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "7455355044",
+    "firebase_url": "https://stwp-2e4e7.firebaseio.com",
+    "project_id": "stwp-2e4e7",
+    "storage_bucket": "stwp-2e4e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7455355044:android:5a2f0c81df9a39d5",
+        "android_client_info": {
+          "package_name": "com.soulone.stwp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7455355044-s3j9bh390435nss9m5mq68aj3u28lkdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soulone.stwp",
+            "certificate_hash": "ecc77206197831032677ab3b9281b10e286233f3"
+          }
+        },
+        {
+          "client_id": "7455355044-qm7ejbbfahltg39nbrg090jc50jbqgso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSfhl3-Z4HUjuuctzDFepNub5rOmVVlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7455355044-qm7ejbbfahltg39nbrg090jc50jbqgso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

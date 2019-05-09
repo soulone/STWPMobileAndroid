@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RutinasActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rutinasTitle"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rubik_medium"
+            android:padding="8dp"
+            android:text="Rutinas" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/rutinasCard"
+            android:layout_alignParentRight="true"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rutinasTitle"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            android:layout_marginBottom="@dimen/mtrl_card_spacing"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:padding="8dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/rutinascardTitle"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rubik_medium"
+                    android:textSize="24sp"
+                    android:text="Crear nueva rutina"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/rutinascardSubtitle"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rutinascardTitle"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/rubik_medium"
+                    android:text="Reliza rutinas para cada dia"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="@android:color/background_light" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_alignEnd="@id/rutinascardTitle"
+                    android:id="@+id/floating_action_button"
+                    android:padding="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_alignParentRight="true"
+                    app:srcCompat="@drawable/ic_add_circle_outline_black_24dp" />
+
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
