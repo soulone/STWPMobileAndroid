@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void loginToRutinas() {
-        Intent intent = new Intent(this, RutinasActivity.class);
+        Intent intent = new Intent(this, RutinasActivity_beta.class);
         startActivity(intent);
     }
 

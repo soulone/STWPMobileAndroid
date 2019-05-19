@@ -9,9 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MisRutinasActivity"></activity>
+        <activity
+            android:name=".RutinasActivity_beta"
+            android:label="@string/title_activity_rutinas_beta"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".RutinasActivity"
-            android:label="@string/title_activity_rutinas"></activity>
+            android:label="@string/title_activity_rutinas" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SingUpActivity" />
         <activity android:name=".MainActivity">

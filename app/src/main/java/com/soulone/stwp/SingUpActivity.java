@@ -38,7 +38,7 @@ public class SingUpActivity extends AppCompatActivity {
             Toast.makeText(this, "Escriba todos los datos correctamente", Toast.LENGTH_SHORT).show();
             usuarioText.requestFocus();
         }else {
-            Intent intent =  new Intent(this, RutinasActivity.class);
+            Intent intent =  new Intent(this, RutinasActivity_beta.class);
             startActivity(intent);
         }
     }
